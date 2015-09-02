@@ -1,4 +1,4 @@
-Redis on Windows dll
+Redis dll on Windows
 ===
 
 ## Redis 2.8 Branch
