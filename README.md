@@ -1,5 +1,8 @@
 Redis dll on Windows
 ===
+redis server 기능을  application 에 내장하기 위해 dll 버전으로 변경함.
+int main(int argc, char **argv) ...
+  => __declspec(dllexport) int redis_main(int argc, char **argv)...
 
 ## Redis 2.8 Branch
 
