@@ -3413,7 +3413,7 @@ void redisSetProcTitle(char *title) {
 #endif
 }
 
-int main(int argc, char **argv) {
+__declspec(dllexport) int main(int argc, char **argv) {
     struct timeval tv;
 
     /* We need to initialize our libraries, and the server configuration. */
